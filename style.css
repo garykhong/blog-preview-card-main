@@ -1,0 +1,89 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;      
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .userCard {
+    display: flex;
+    align-items: center;      
+    gap: 1em;
+  }
+
+  .userImage {
+    width:40px;
+  }
+  
+  .userName {
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: Figtree;
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf');
+  }
+
+  @font-face {
+    font-family: Figtree;
+    font-style: italic;
+    src: url('assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
+  }
+
+  body {
+    font-family: Figtree;
+    background-color: hsl(47, 88%, 63%);            
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 1em;    
+  }
+
+  .card {
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px 2px black;
+    max-width: 360px;
+    background-color: hsl(0, 0%, 100%);     
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em;
+    gap: 1em;
+  }
+
+  .articleImage {
+    border-radius: 17px;
+  }
+
+  .learningHeading {
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 0.2em 0.5em;
+    border-radius: 5px;
+  }
+
+  * {
+    margin: 0;
+  }
+
+  .description {
+    color: hsl(0, 0%, 50%)
+  }
+
+  .publishedText {
+    font-weight: bold;
+  }
+
+  .htmlAndCssHeading:hover {
+    color: hsl(47, 88%, 63%);      
+  }
